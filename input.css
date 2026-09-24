@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Oldenburg&family=Special+Elite&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+.font-cinzel {
+    font-family: "Cinzel";
+}
+
+.font-metamorphous {
+    font-family: "Metamorphous";
+}
+
+.font-valleysans {
+    font-family: "Valley Sans";
+}
