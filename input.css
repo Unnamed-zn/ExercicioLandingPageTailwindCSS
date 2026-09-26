@@ -37,3 +37,11 @@
 .font-unicaone {
     font-family: "Unica One";
 }
+
+.navlink {
+    @apply block pr-2 pl-2 pt-0.5 pb-0.5 rounded-xl transition duration-300 ease-linear hover:scale-110 hover:shadow-[0_0_15px_white] hover:shadow-white hover:bg-black/70;
+}
+
+.fodase {
+    border: 30px solid;
+}

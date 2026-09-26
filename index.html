@@ -8,26 +8,55 @@
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body class='h-screen w-screen flex flex-col border pl-[2vw] pr-[2vw] pt-[3vh] pb-[3vh] bg-[url(/imgs/fundo_preto.png)] bg-cover no-rep'>
-    <header class='flex flex-row justify-between pl-[6vw] pr-[6vw] pt-[2vh] text-white font-pirataone font-bold'>
-        <a href="#" class='text-3xl font-bold'>
-            MAJOR <span class='text-emerald-200'>ARCANA</span>
+<body class='h-screen w-screen flex flex-col bg-[url(/imgs/fundo_preto.png)] bg-cover no-rep overflow-hidden'>
+    <header
+        class='h-[10vh] flex flex-row items-start justify-between pl-[8vw] pr-[8vw] pt-[3vh] text-white font-metamorphous'>
+        <a href="#" class='font-bold text-2xl transition duration-300 ease-linear hover:scale-110 hover:text-shadow-[0_0_15px_red] h-fit'>
+            MAJOR <span class='text-gray-400'>ARCANA</span>
         </a>
-        <nav class='flex gap-[4vw] font-bold text-3xl'>
-            <a href="#"
-                class='block pr-2 pl-2 pt-0.5 pb-0.5 rounded-lg transition duration-300 ease-linear hover:scale-110 hover:text-shadow-md'>Home</a>
-            <a href="#"
-                class='block pr-2 pl-2 pt-0.5 pb-0.5 rounded-lg transition duration-300 ease-linear hover:scale-110 hover:text-shadow-md'>Produtos</a>
-            <a href="#"
-                class='block pr-2 pl-2 pt-0.5 pb-0.5 rounded-lg transition duration-300 ease-linear hover:scale-110 hover:text-shadow-md'>Sobre Nós</a>
-            <a href="#"
-                class='block pr-2 pl-2 pt-0.5 pb-0.5 rounded-lg transition duration-300 ease-linear hover:scale-110 hover:text-shadow-md'>Contatos</a>
+        <nav class='flex gap-[4vw] font-bold h-fit pt-[1.5vh]'>
+            <a href="#" class='navlink'>Home</a>
+            <a href="#" class='navlink'>Produtos</a>
+            <a href="#" class='navlink'>Sobre Nós</a>
+            <a href="#" class='navlink'>Contatos</a>
         </nav>
     </header>
-    <main>
-        <h1 class ='font-saira'>
-            Torne-se Beyonder
-        </h1>
+    <main class="flex flex-row h-[90vh]">
+        <div
+            class="w-[55vw] bg-[url(/imgs/pergaminho.png)] bg-cover bg-[center_top_-8vh] pt-[8vh] pl-[4vw] pr-[3.5vw] flex flex-col gap-[4vh]">
+            <h1 class="text-4xl text-gray-800 font-almendra font-bold text-center text-shadow-[0_0_15px_black]">
+                Torne-se Beyonder
+            </h1>
+            <p
+                class="text-2xl text-gray-800 font-saira font-semibold text-justify pr-[2.5vw] pl-[2.5vw] indent-[3vw] text-shadow-[0_0_2px_black]">
+                Toda divindade um dia já foi uma pessoa comum em frente a fórmulas, em dúvida sobre que caminho
+                escolher, uma hora você também precisa fazer a sua escolha, mas não se preocupe, a escolha ser difícil
+                não
+                significa que ela precise ser cara!
+            </p>
+            <p
+                class="text-2xl text-gray-800 font-saira font-semibold text-justify pr-[2.5vw] pl-[2.5vw] indent-[3vw] text-shadow-[0_0_2px_black]">
+                Só aqui, na <span class="font-metamorphous text-xl text-shadow-[0_0_5px_red]">MAJOR ARCANA</span> você
+                encontra fórmulas de poção e ingredientes beyonder com 30% de desconto! O que está esperando? Vai perder essa chance? Junte-se a nós e se torne Beyonder! 
+            </p>
+        </div>
+        <div class='w-[45vw]'>
+            <div class="absolute bottom-0 right-0 bg-[url(/imgs/papel.png)] bg-cover w-[45vw] h-[65vh] pl-[3vw] pt-[2vh]">
+                <div class="flex flex-col w-[100%] items-center gap-[1vh]">
+                    <img src="/imgs/papel_head.png" class ='w-[9vw]'>
+                    <hr class="border border-gray-600/50 w-[50%] mt-[-0.5vh]">
+                    <hr class="border border-gray-600/50 w-[70%] my-[0.5vh]">
+                    <h1 class="block font-pirataone bg-cyan-800 pt-[1.2vh] pb-[0.7vh] px-[0.8vw] rounded-full text-yellow-500 text-2xl">
+                        SEQUÊNCIA 9 • BOTICÁRIO
+                    </h1>
+                    <div class="flex flex-row items-start w-[100%] mt-[3vh] gap-[2.5vw] pr-[2.5vw]">
+                        <div class="relative top-[0.5vw] left-[0.5vw] mr-[0.5vw] shadow-[0_0_15px_yellow] bg-amber-300/50 min-w-[11vw] min-h-[11vw] rounded-full">
+                            <img class="absolute top-[-1vw] left-[-1vw] object-cover min-w-[12vw] min-x-[12vw]" src="/imgs/pocaoBoticario.webp">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 
