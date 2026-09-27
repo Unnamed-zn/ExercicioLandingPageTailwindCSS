@@ -45,3 +45,7 @@
 .fodase {
     border: 30px solid;
 }
+
+.potionpapertitle {
+    @apply block rounded-md w-fit text-yellow-500 text-2xl font-semibold bg-slate-800 px-[0.7vw] py-[0.3vh];
+}
